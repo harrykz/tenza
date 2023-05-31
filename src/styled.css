@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400;1,500&display=swap');
+
+.mainBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card--container{
+    background-color: #12485F;
+    font-family: 'Inter', sans-serif;
+    width: 250px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+/* Card Image CSS */
+.card--image{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card--person_name, .card--person_occupation, .card--person_web{
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+
+.card--person_name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.card--person_occupation{
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.card--person_web{
+    font-size: 10px;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Card Button Segment CSS */
+.card--button_holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 8px 10px;
+}
+
+.card--mail, .card--linked{
+    font-size: 16px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.card--mail{
+    background-color: #6F7559;
+}
+
+.card--linked{
+    background-color: #006192;
+}
+
+/* About Section */
+.card--about_section, .card--interests_section{
+    padding: 0px 10px;
+}
+
+.card--about_heading, .card--about_text, .card--interests_heading, .card--interests_text{
+    color: #ffffff;
+}
+
+.card--about_heading, .card--interests_heading{
+    font-size: 16px;
+    margin: 5px 0px;
+}
+
+.card--about_text, .card--interests_text{
+    font-size: 10px;
+    margin: 0;
+    text-align: justify;
+}
+
+/* Social Footer */
+.card--social_footer_bg{
+    background-color: rgb(94, 105, 250);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card--social_icons{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.card--social_icons > li {
+    padding: 5px 10px;
+}
+
+.card--social_twitter, .card--social_youtube, .card--social_facebook, .card--social_instagram{
+    width: 100%;
+}
